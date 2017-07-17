@@ -67,6 +67,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
     - [Permissions](#permissions)
     - [Processes](#processes)
     - [Queue](#queue)
+    - [Recommender Systems](#recommender-systems)
     - [RESTful API](#restful-api)
     - [RPC Servers](#rpc-servers)
     - [Science](#science)
@@ -155,6 +156,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [m3u8](https://github.com/globocom/m3u8) - A module for parsing m3u8 file.
 * [mingus](http://bspaans.github.io/python-mingus/) - An advanced music theory and notation package with MIDI file and playback support.
 * [mutagen](https://github.com/quodlibet/mutagen) - A Python module to handle audio metadata.
+* [pyAudioAnalysis](https://github.com/tyiannak/pyAudioAnalysis) - Python Audio Analysis Library: Feature Extraction, Classification, Segmentation and Applications
 * [pydub](https://github.com/jiaaro/pydub) - Manipulate audio with a simple and easy high level interface.
 * [pyechonest](https://github.com/echonest/pyechonest) - Python client for the [Echo Nest](http://developer.echonest.com/) API.
 * [talkbox](http://scikits.appspot.com/talkbox) - A Python library for speech/signal processing.
@@ -541,6 +543,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 
 *Libraries for Python version and environment management.*
 
+* [Pipenv](https://github.com/kennethreitz/pipenv) - Sacred Marriage of Pipfile, Pip, & Virtualenv.
 * [p](https://github.com/qw3rtman/p) - Dead simple interactive Python version management.
 * [pyenv](https://github.com/yyuu/pyenv) - Simple Python version management.
 * [venv](https://docs.python.org/3/library/venv.html) - (Python standard library in Python 3.3+) Creating lightweight virtual environments.
@@ -649,7 +652,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 *Libraries for working with HTTP.*
 
 * [grequests](https://github.com/kennethreitz/grequests) - requests + gevent for asynchronous HTTP requests.
-* [httplib2](https://github.com/jcgregorio/httplib2) - Comprehensive HTTP client library.
+* [httplib2](https://github.com/httplib2/httplib2) - Comprehensive HTTP client library.
 * [requests](http://docs.python-requests.org/en/latest/) - HTTP Requests for Humans™.
 * [treq](https://github.com/twisted/treq) - Python requests like API built on top of Twisted's HTTP client.
 * [urllib3](https://github.com/shazow/urllib3) - A HTTP library with thread-safe connection pooling, file post support, sanity friendly.
@@ -736,19 +739,17 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [Eliot](https://github.com/ClusterHQ/eliot) - Logging for complex & distributed systems.
 * [logbook](http://logbook.readthedocs.io/en/stable/) - Logging replacement for Python.
 * [logging](https://docs.python.org/2/library/logging.html) - (Python standard library) Logging facility for Python.
-* [Raven](https://github.com/getsentry/raven-python) - The Python client for Sentry.
 * [Sentry](https://pypi.python.org/pypi/sentry) - A realtime logging and aggregation server.
 
 ## Machine Learning
 
 *Libraries for Machine Learning. See: [awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning#python).*
 
-* [gensim](https://github.com/piskvorky/gensim) - Topic Modelling for Humans.
-* [LightFM](https://github.com/lyst/lightfm) - A Python implementation of a number of popular recommendation algorithms.
-* [MLlib](http://spark.apache.org/mllib/) - [Apache Spark](http://spark.apache.org/)'s scalable Machine Learning library.
+* [gensim](https://github.com/RaRe-Technologies/gensim) - Topic Modelling for Humans.
+* [Metrics](https://github.com/dmlc/xgboost) - Machine learning evaluation metrics.
 * [NuPIC](https://github.com/numenta/nupic) - Numenta Platform for Intelligent Computing.
 * [scikit-learn](http://scikit-learn.org/) - The most popular Python library for Machine Learning.
-* [surprise](http://surpriselib.com) - A scikit for building and analyzing recommender systems.
+* [Spark ML](http://spark.apache.org/docs/latest/ml-guide.html) - [Apache Spark](http://spark.apache.org/)'s scalable Machine Learning library.
 * [vowpal_porpoise](https://github.com/josephreisinger/vowpal_porpoise) - A lightweight Python wrapper for [Vowpal Wabbit](https://github.com/JohnLangford/vowpal_wabbit/).
 * [xgboost](https://github.com/dmlc/xgboost) - A scalable, portable, and distributed gradient boosting library.
 
@@ -894,12 +895,21 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [rq](http://python-rq.org/) - Simple job queues for Python.
 * [simpleq](https://github.com/rdegges/simpleq) - A simple, infinitely scalable, Amazon SQS based queue.
 
+## Recommender Systems
+
+*Libraries for building recommender systems*
+
+* [annoy](https://github.com/spotify/annoy) - Approximate Nearest Neighbors in C++/Python optimized for memory usage.
+* [fastFM](https://github.com/ibayer/fastFM) - A library for Factorization Machines.
+* [implicit](https://github.com/benfred/implicit) - A fast Python implementation of collaborative filtering for implicit datasets.
+* [LightFM](https://github.com/lyst/lightfm) - A Python implementation of a number of popular recommendation algorithms.
+* [surprise](http://surpriselib.com) - A scikit for building and analyzing recommender systems.
+
 ## RESTful API
 
 *Libraries for developing RESTful APIs.*
 
 * Django
-    * [django-formapi](https://github.com/5monkeys/django-formapi) - Create JSON APIs with Django's form validation.
     * [django-rest-framework](http://www.django-rest-framework.org/) - A powerful and flexible toolkit to build web APIs.
     * [django-tastypie](http://tastypieapi.org/) - Creating delicious APIs for Django apps.
 * Flask
@@ -938,6 +948,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [NIPY](http://nipy.org) - A collection of neuroimaging toolkits.
 * [NumPy](http://www.numpy.org/) - A fundamental package for scientific computing with Python.
 * [Open Babel](http://openbabel.org/wiki/Main_Page) - A chemical toolbox designed to speak the many languages of chemical data.
+* [ObsPy](http://obspy.org) - A Python toolbox for seismology.
 * [PyDy](http://www.pydy.org/) - Short for Python Dynamics, used to assist with workflow in the modeling of dynamic motion.
 * [PyMC](https://github.com/pymc-devs/pymc3) - Markov Chain Monte Carlo sampling toolkit.
 * [RDKit](http://www.rdkit.org/) - Cheminformatics and Machine Learning Software.
@@ -945,6 +956,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [statsmodels](https://github.com/statsmodels/statsmodels) - Statistical modeling and econometrics in Python.
 * [SymPy](https://github.com/sympy/sympy) - A Python library for symbolic mathematics.
 * [Zipline](https://github.com/quantopian/zipline) - A Pythonic algorithmic trading library.
+* [SimPy](https://bitbucket.org/simpy/simpy) -  A process-based discrete-event simulation framework.
 
 ## Search
 
@@ -954,6 +966,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [elasticsearch-dsl-py](https://github.com/elastic/elasticsearch-dsl-py) - The official high-level Python client for Elasticsearch.
 * [elasticsearch-py](https://www.elastic.co/guide/en/elasticsearch/client/python-api/current/index.html) - The official low-level Python client for [Elasticsearch](https://www.elastic.co/products/elasticsearch).
 * [esengine](https://github.com/catholabs/esengine) - ElasticSearch ODM (Object Document Mapper) for Python.
+* [pysolr](https://github.com/django-haystack/pysolr) - A lightweight Python wrapper for Apache Solr (incl. SolrCloud awareness).
 * [solrpy](https://github.com/edsu/solrpy) - A Python client for [solr](http://lucene.apache.org/solr/).
 * [Whoosh](http://whoosh.readthedocs.io/) - A fast, pure Python search engine library.
 
